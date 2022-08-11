@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jentropy"
+version = "0.0.1"
+description = "using entropy for cool stuff"
+authors = ["Jader Brasil <jaderbrasil@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.1"
+pandas = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
